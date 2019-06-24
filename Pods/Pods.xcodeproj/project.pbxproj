@@ -1,0 +1,1250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0762B970FC0AFC1203D5AB0567CEC3EA /* Pods-holidayAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4B68D7FFE1EC93F4737A6979FE4711 /* Pods-holidayAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07E0375E1FA1F2328924A7332E1F0835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		09D6E3E754F6437CC8BDB54CB25562FC /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2069B74FBB8B39F8F850D6CEAB23D /* DateAndTimeFunctions.swift */; };
+		0FCE06C58DA65C8BBDBFB20DF1F14370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		11E05189A7EDC2D2F3E960F4CBD44F0E /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A1530E25499535F91793FE2CDFD1B3 /* Collation.swift */; };
+		16557D99BA8068AC3950581908B44C40 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13FBB6F590C98A164160EAFE712D789 /* FTS5.swift */; };
+		1F90D97CA485F7254506004D299EB7C3 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0744B70C8ED555F8198208FC1BC22 /* AggregateFunctions.swift */; };
+		35A5371C812D46C8AEABC237130356C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4B31746CF461C39B3780F0D810A14C0F /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF486B56D4F7381EDFAC922693DAF2 /* CustomFunctions.swift */; };
+		4BD22D1177246448508A5CF547384A19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4CE9CB8AFF7D92D96C2E8D83A613C787 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CF37AF70CA73BC6F1B00C843671269 /* Operators.swift */; };
+		599BA1666B2F71CCED096B55F6099535 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893888927EDD0752CBCBC5047148FF1E /* Coding.swift */; };
+		66CFA47E2114259E1B349683F9A78981 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA153DF6C54A1E7F7F93B77CF08580 /* Schema.swift */; };
+		681D03E08668E36C1E9EFAC2A785935F /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F67A2B36CDB7BF72953633F93C4D13F /* Expression.swift */; };
+		69475E42B2BF62153B0D8B2E9B2331E0 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399A631E588AA87CFFE8B1CBD6BD219 /* FTS4.swift */; };
+		6DA64B950F5BBE185A3B4C4C4758D3E1 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A00E348DB98F12DE122531C7E423 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7071E9433129F748ABB320AED20278B9 /* Pods-holidayAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E29B642BD4F4FDDD7FA3E2F0B7312 /* Pods-holidayAppUITests-dummy.m */; };
+		7441501513B0EB00D6700B5CA594E46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7AD26751C8BB488046D7C3AA5FAFE08C /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A5186B4091494297C3FBBA2CD9783 /* Setter.swift */; };
+		85890637717899C695507BB7E46C85DF /* Pods-holidayAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EB34660D4A2A63726023C802D82542 /* Pods-holidayAppTests-dummy.m */; };
+		8620715AC016870A67B27284FF3805A8 /* Pods-holidayAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B6F3F9DF81C6425E11A981A6FF7CEF /* Pods-holidayAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA54A4EE5991E86FE5724B72A81EA33 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148D117BB9002591D9E27D68CFC8B90 /* Errors.swift */; };
+		8F9AF022EF88DB22521E2D459E4A3013 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D6299138AD2196FBE765DA482E5729 /* CoreFunctions.swift */; };
+		91F3BC4B163797BD5D6B3EAC3A22ABA8 /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2028286E7C1D60B040E654F9D74BD8 /* SQLite-Bridging.m */; };
+		937138435F571DD1CE7894BEED7A8874 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CE51B321EDF873479978959FCD01B /* SwiftyJSON.swift */; };
+		98F1F6BE7CF1A2BBF45AE6E0507395C6 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A5A7D61F3692CC8612E0B7E0F54B47 /* RTree.swift */; };
+		9BA1118A477C79D8EE0E7DAE59E6DFF1 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CF6409129B6803B225518D4497D016 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DEC80FE92FCD8356A938A262C9A5AEF /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D1E5ED993ABB3E0968D1965FC7E03D /* SwiftyJSON-dummy.m */; };
+		A0114BD9F5FA96109824D02CB3EBEBB8 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F80AC7402AE60CE0CBF5BE5C8DF0E /* Helpers.swift */; };
+		A07FC4C411A529D59936378579328951 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D3E6CF4B0306D87C9AFF9D6D167C5 /* Blob.swift */; };
+		A3B77988FCF45558453560651A047DE4 /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3A33E1122C5F85F57167D4DCB2C37B /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A979438DCA3727CF2EF5EA12BFC74325 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FEBDC4E7E1FD07FADD33F9678CF739 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECD1E63B76BEDD400801E465C02D87F /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97C04792E556014AECBEB8C4E6DE0D /* Query.swift */; };
+		C0CCBD36BC33B37093A6D381B151E531 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC78DB61CF7C27F1F933D334AEA9E5B /* SQLite.swift-dummy.m */; };
+		C6ABCAC927C2A8716E2DD3D0FD4B902A /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DA08787C5D56E64D6AF04A14002B0 /* Value.swift */; };
+		D0BB3859D071E800FA361E24C4F19FE4 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E08BE72E403468FDAFB3D83AA358D175 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D66DBE0B541B073770B087FB9E4D97EB /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C3A1E7C511D8495FA213D6058695D /* Foundation.swift */; };
+		E90AB0B81F9B88D1C6D8E6BA4D1C5E4E /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8044990512BE6F2B1B780FC39348682 /* Statement.swift */; };
+		ED32265D9A572C5115B76991B940C7D1 /* Pods-holidayApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6D9A6A1C7B31FA39F38E51849A6290 /* Pods-holidayApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03A81399CB9B4308568D3D4D5FC01A2 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2DD3A761AB0FAA34C0133F5000D17 /* Connection.swift */; };
+		F6EF0B97BB4E2B5265C78343C9E2A67E /* Pods-holidayApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5D32B9CEE68293ED76F7528A9322 /* Pods-holidayApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34973E33B3D880822B1E488991E19C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F965298CB962334B46BF4742FC9A4C6;
+			remoteInfo = SwiftyJSON;
+		};
+		368ED4B2CDB61BC9468E890DF1AD41B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70D303D362DEC1BD5186B5C0CFE94A0D;
+			remoteInfo = "Pods-holidayApp";
+		};
+		5D7C7706E633A0DF895DC14C8E1F6C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70D303D362DEC1BD5186B5C0CFE94A0D;
+			remoteInfo = "Pods-holidayApp";
+		};
+		DE22B2263368AD99288506624CFD751C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C820740FDFC89DC2C2B08F779053FA;
+			remoteInfo = SQLite.swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0434E3B71D128521013157153867995F /* Pods-holidayAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-holidayAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		090B5D32B9CEE68293ED76F7528A9322 /* Pods-holidayApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-holidayApp-dummy.m"; sourceTree = "<group>"; };
+		10470EB960CAB3E1721EAD33ACD9C20B /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		10D1E5ED993ABB3E0968D1965FC7E03D /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		156D78CDEC688FF6D3B8114F00287377 /* Pods-holidayApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-holidayApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B4581652356F79279851CC637F05EB5 /* Pods-holidayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-holidayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B99BF3AACD94D21FDDF0CB57CA6210A /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		1C46F75DA119CF60AFE997E736D9AD3B /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		1E2028286E7C1D60B040E654F9D74BD8 /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "Sources/SQLiteObjc/SQLite-Bridging.m"; sourceTree = "<group>"; };
+		248E29B642BD4F4FDDD7FA3E2F0B7312 /* Pods-holidayAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-holidayAppUITests-dummy.m"; sourceTree = "<group>"; };
+		287D3E6CF4B0306D87C9AFF9D6D167C5 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32FE5615ADF876C8EFDC08B09276D2F6 /* Pods_holidayAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_holidayAppUITests.framework; path = "Pods-holidayAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A5A7D61F3692CC8612E0B7E0F54B47 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		39729BCB1A30C7F7B52747B3B1BDE0C1 /* Pods-holidayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-holidayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FC2069B74FBB8B39F8F850D6CEAB23D /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		42E0744B70C8ED555F8198208FC1BC22 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		53D1B1ACB29CAB5DA3AEB02032FF02D0 /* Pods-holidayAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-holidayAppUITests-Info.plist"; sourceTree = "<group>"; };
+		53DB5F53B58055FC787BAE6FD436E7C2 /* Pods_holidayApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_holidayApp.framework; path = "Pods-holidayApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4B68D7FFE1EC93F4737A6979FE4711 /* Pods-holidayAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-holidayAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		617F80AC7402AE60CE0CBF5BE5C8DF0E /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		633772566B02C0927D6A6F942BE4C7F2 /* Pods-holidayApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-holidayApp-Info.plist"; sourceTree = "<group>"; };
+		66EB34660D4A2A63726023C802D82542 /* Pods-holidayAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-holidayAppTests-dummy.m"; sourceTree = "<group>"; };
+		6AD508902DFF1A8B82BBFA3E52EE0506 /* Pods-holidayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-holidayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70DFB0F4A6A4B9A30904C0F98791BEE7 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		7148D117BB9002591D9E27D68CFC8B90 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		72B6F3F9DF81C6425E11A981A6FF7CEF /* Pods-holidayAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-holidayAppTests-umbrella.h"; sourceTree = "<group>"; };
+		7F3A33E1122C5F85F57167D4DCB2C37B /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "Sources/SQLiteObjc/include/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		7F67A2B36CDB7BF72953633F93C4D13F /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		835C7932113C24E254BD1DF8BDF8F01C /* Pods-holidayApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-holidayApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		84CF6409129B6803B225518D4497D016 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		8727B97B5DD865F92841957AB21E292A /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		893888927EDD0752CBCBC5047148FF1E /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		8A75CFCD3CBCB98610BA2BC32906863E /* Pods-holidayAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-holidayAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E6264F2FCB61725E1E0F16D063C69A0 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		95343994575D07117554E7FB00A0543F /* Pods-holidayAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-holidayAppTests-Info.plist"; sourceTree = "<group>"; };
+		9596FF38FDCD832FB40B060F703CF507 /* Pods-holidayAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-holidayAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC731D049FE97E5B8D5E21ED687AD5B /* Pods-holidayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-holidayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A0A1530E25499535F91793FE2CDFD1B3 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		A248B8B4B05E09DE58CFDCD6AD5E7251 /* Pods-holidayAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-holidayAppUITests.modulemap"; sourceTree = "<group>"; };
+		A40B196ABF3B427FE352A9D66ECCAD62 /* Pods-holidayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-holidayAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A80800D0A106E88D114A569BFC350FDF /* Pods-holidayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-holidayApp.release.xcconfig"; sourceTree = "<group>"; };
+		A915C93DA4289DF15871E2D38418047E /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		AD51A00E348DB98F12DE122531C7E423 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		B4D6299138AD2196FBE765DA482E5729 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		B55CE51B321EDF873479978959FCD01B /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		B5FEBDC4E7E1FD07FADD33F9678CF739 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		B8ECB3E6F26365445717AC9E0605A711 /* Pods-holidayApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-holidayApp.modulemap"; sourceTree = "<group>"; };
+		BB97C04792E556014AECBEB8C4E6DE0D /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		C399A631E588AA87CFFE8B1CBD6BD219 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		CBC78DB61CF7C27F1F933D334AEA9E5B /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		CC49EBBAE9C08F824622A3B5E884A6F3 /* Pods-holidayAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-holidayAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D07C3A1E7C511D8495FA213D6058695D /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		D2A2DD3A761AB0FAA34C0133F5000D17 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		D63E7516A3FFE0960E0E913F66A9908F /* Pods_holidayAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_holidayAppTests.framework; path = "Pods-holidayAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D20B771E994497A6CBA968A85A85A3 /* Pods-holidayAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-holidayAppTests.modulemap"; sourceTree = "<group>"; };
+		DB5F55054F7F0DD19335491F5454C332 /* Pods-holidayApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-holidayApp-frameworks.sh"; sourceTree = "<group>"; };
+		DE6D9A6A1C7B31FA39F38E51849A6290 /* Pods-holidayApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-holidayApp-umbrella.h"; sourceTree = "<group>"; };
+		E08BE72E403468FDAFB3D83AA358D175 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		E0D76A6C65CF3AFDC2814A009C315019 /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		E13FBB6F590C98A164160EAFE712D789 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		E1A4098CAE4823105DDCDE6FCB43F563 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA153DF6C54A1E7F7F93B77CF08580 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		E4CF37AF70CA73BC6F1B00C843671269 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		EAAF486B56D4F7381EDFAC922693DAF2 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		EF7DA08787C5D56E64D6AF04A14002B0 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		F8044990512BE6F2B1B780FC39348682 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		F834105CDDFD7CD9EB2210C6B8AE2D9B /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3A5186B4091494297C3FBBA2CD9783 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255990BDD75D0EFB9C1C7F132DD3A242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7441501513B0EB00D6700B5CA594E46C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1EE0389F8675A1AE3ED90EB622F549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E0375E1FA1F2328924A7332E1F0835 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E58F23254DC337C9DC95EE1EB07CC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A5371C812D46C8AEABC237130356C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E455A583D9C5A5728A5B33D27E6AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD22D1177246448508A5CF547384A19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97D9E123D2C77FC258EEBBBE511D8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCE06C58DA65C8BBDBFB20DF1F14370 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090477BD321720052E326A0D2FE10C83 /* Pods-holidayAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D20B771E994497A6CBA968A85A85A3 /* Pods-holidayAppTests.modulemap */,
+				0434E3B71D128521013157153867995F /* Pods-holidayAppTests-acknowledgements.markdown */,
+				CC49EBBAE9C08F824622A3B5E884A6F3 /* Pods-holidayAppTests-acknowledgements.plist */,
+				66EB34660D4A2A63726023C802D82542 /* Pods-holidayAppTests-dummy.m */,
+				95343994575D07117554E7FB00A0543F /* Pods-holidayAppTests-Info.plist */,
+				72B6F3F9DF81C6425E11A981A6FF7CEF /* Pods-holidayAppTests-umbrella.h */,
+				1B4581652356F79279851CC637F05EB5 /* Pods-holidayAppTests.debug.xcconfig */,
+				A40B196ABF3B427FE352A9D66ECCAD62 /* Pods-holidayAppTests.release.xcconfig */,
+			);
+			name = "Pods-holidayAppTests";
+			path = "Target Support Files/Pods-holidayAppTests";
+			sourceTree = "<group>";
+		};
+		0CE1344F2B107D81DFE94BF1AD196556 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				B55CE51B321EDF873479978959FCD01B /* SwiftyJSON.swift */,
+				8540BE0A2C6F53FA810192ECE5197A27 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		35CB614C975A9FD9D55D3659F7212951 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E71D9450AC6A455563375570E1A9A /* SQLite.swift */,
+				0CE1344F2B107D81DFE94BF1AD196556 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B7B2D0D70DF2EAA85FE1B9939791C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53DB5F53B58055FC787BAE6FD436E7C2 /* Pods_holidayApp.framework */,
+				D63E7516A3FFE0960E0E913F66A9908F /* Pods_holidayAppTests.framework */,
+				32FE5615ADF876C8EFDC08B09276D2F6 /* Pods_holidayAppUITests.framework */,
+				E1A4098CAE4823105DDCDE6FCB43F563 /* SQLite.framework */,
+				F834105CDDFD7CD9EB2210C6B8AE2D9B /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0E71D9450AC6A455563375570E1A9A /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				ED1557057BCFD8282EACBCB859418641 /* standard */,
+				C302F602E28EF3D0AF71835E54430E80 /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		785F5F7DDF2754F2973FD63726FA2221 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF00A670AE44801F276CD6489839CCFC /* Pods-holidayApp */,
+				090477BD321720052E326A0D2FE10C83 /* Pods-holidayAppTests */,
+				7BDBD456D56F9CE0F553E3D96515D834 /* Pods-holidayAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BDBD456D56F9CE0F553E3D96515D834 /* Pods-holidayAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A248B8B4B05E09DE58CFDCD6AD5E7251 /* Pods-holidayAppUITests.modulemap */,
+				8A75CFCD3CBCB98610BA2BC32906863E /* Pods-holidayAppUITests-acknowledgements.markdown */,
+				9596FF38FDCD832FB40B060F703CF507 /* Pods-holidayAppUITests-acknowledgements.plist */,
+				248E29B642BD4F4FDDD7FA3E2F0B7312 /* Pods-holidayAppUITests-dummy.m */,
+				53D1B1ACB29CAB5DA3AEB02032FF02D0 /* Pods-holidayAppUITests-Info.plist */,
+				5F4B68D7FFE1EC93F4737A6979FE4711 /* Pods-holidayAppUITests-umbrella.h */,
+				6AD508902DFF1A8B82BBFA3E52EE0506 /* Pods-holidayAppUITests.debug.xcconfig */,
+				39729BCB1A30C7F7B52747B3B1BDE0C1 /* Pods-holidayAppUITests.release.xcconfig */,
+			);
+			name = "Pods-holidayAppUITests";
+			path = "Target Support Files/Pods-holidayAppUITests";
+			sourceTree = "<group>";
+		};
+		8540BE0A2C6F53FA810192ECE5197A27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8727B97B5DD865F92841957AB21E292A /* SwiftyJSON.modulemap */,
+				8E6264F2FCB61725E1E0F16D063C69A0 /* SwiftyJSON.xcconfig */,
+				10D1E5ED993ABB3E0968D1965FC7E03D /* SwiftyJSON-dummy.m */,
+				70DFB0F4A6A4B9A30904C0F98791BEE7 /* SwiftyJSON-Info.plist */,
+				10470EB960CAB3E1721EAD33ACD9C20B /* SwiftyJSON-prefix.pch */,
+				84CF6409129B6803B225518D4497D016 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C302F602E28EF3D0AF71835E54430E80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C46F75DA119CF60AFE997E736D9AD3B /* SQLite.swift.modulemap */,
+				1B99BF3AACD94D21FDDF0CB57CA6210A /* SQLite.swift.xcconfig */,
+				CBC78DB61CF7C27F1F933D334AEA9E5B /* SQLite.swift-dummy.m */,
+				E0D76A6C65CF3AFDC2814A009C315019 /* SQLite.swift-Info.plist */,
+				A915C93DA4289DF15871E2D38418047E /* SQLite.swift-prefix.pch */,
+				B5FEBDC4E7E1FD07FADD33F9678CF739 /* SQLite.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		CF00A670AE44801F276CD6489839CCFC /* Pods-holidayApp */ = {
+			isa = PBXGroup;
+			children = (
+				B8ECB3E6F26365445717AC9E0605A711 /* Pods-holidayApp.modulemap */,
+				156D78CDEC688FF6D3B8114F00287377 /* Pods-holidayApp-acknowledgements.markdown */,
+				835C7932113C24E254BD1DF8BDF8F01C /* Pods-holidayApp-acknowledgements.plist */,
+				090B5D32B9CEE68293ED76F7528A9322 /* Pods-holidayApp-dummy.m */,
+				DB5F55054F7F0DD19335491F5454C332 /* Pods-holidayApp-frameworks.sh */,
+				633772566B02C0927D6A6F942BE4C7F2 /* Pods-holidayApp-Info.plist */,
+				DE6D9A6A1C7B31FA39F38E51849A6290 /* Pods-holidayApp-umbrella.h */,
+				9EC731D049FE97E5B8D5E21ED687AD5B /* Pods-holidayApp.debug.xcconfig */,
+				A80800D0A106E88D114A569BFC350FDF /* Pods-holidayApp.release.xcconfig */,
+			);
+			name = "Pods-holidayApp";
+			path = "Target Support Files/Pods-holidayApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				35CB614C975A9FD9D55D3659F7212951 /* Pods */,
+				3B7B2D0D70DF2EAA85FE1B9939791C40 /* Products */,
+				785F5F7DDF2754F2973FD63726FA2221 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1557057BCFD8282EACBCB859418641 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				42E0744B70C8ED555F8198208FC1BC22 /* AggregateFunctions.swift */,
+				287D3E6CF4B0306D87C9AFF9D6D167C5 /* Blob.swift */,
+				893888927EDD0752CBCBC5047148FF1E /* Coding.swift */,
+				A0A1530E25499535F91793FE2CDFD1B3 /* Collation.swift */,
+				D2A2DD3A761AB0FAA34C0133F5000D17 /* Connection.swift */,
+				B4D6299138AD2196FBE765DA482E5729 /* CoreFunctions.swift */,
+				EAAF486B56D4F7381EDFAC922693DAF2 /* CustomFunctions.swift */,
+				3FC2069B74FBB8B39F8F850D6CEAB23D /* DateAndTimeFunctions.swift */,
+				7148D117BB9002591D9E27D68CFC8B90 /* Errors.swift */,
+				7F67A2B36CDB7BF72953633F93C4D13F /* Expression.swift */,
+				D07C3A1E7C511D8495FA213D6058695D /* Foundation.swift */,
+				E08BE72E403468FDAFB3D83AA358D175 /* fts3_tokenizer.h */,
+				C399A631E588AA87CFFE8B1CBD6BD219 /* FTS4.swift */,
+				E13FBB6F590C98A164160EAFE712D789 /* FTS5.swift */,
+				617F80AC7402AE60CE0CBF5BE5C8DF0E /* Helpers.swift */,
+				E4CF37AF70CA73BC6F1B00C843671269 /* Operators.swift */,
+				BB97C04792E556014AECBEB8C4E6DE0D /* Query.swift */,
+				33A5A7D61F3692CC8612E0B7E0F54B47 /* RTree.swift */,
+				E3FA153DF6C54A1E7F7F93B77CF08580 /* Schema.swift */,
+				FE3A5186B4091494297C3FBBA2CD9783 /* Setter.swift */,
+				AD51A00E348DB98F12DE122531C7E423 /* SQLite.h */,
+				7F3A33E1122C5F85F57167D4DCB2C37B /* SQLite-Bridging.h */,
+				1E2028286E7C1D60B040E654F9D74BD8 /* SQLite-Bridging.m */,
+				F8044990512BE6F2B1B780FC39348682 /* Statement.swift */,
+				EF7DA08787C5D56E64D6AF04A14002B0 /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09DBF64663C5252CE4D913A855FF066F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BB3859D071E800FA361E24C4F19FE4 /* fts3_tokenizer.h in Headers */,
+				A3B77988FCF45558453560651A047DE4 /* SQLite-Bridging.h in Headers */,
+				6DA64B950F5BBE185A3B4C4C4758D3E1 /* SQLite.h in Headers */,
+				A979438DCA3727CF2EF5EA12BFC74325 /* SQLite.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24726469A4E5243AC2BF3682627607EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA1118A477C79D8EE0E7DAE59E6DFF1 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BEC085081D29C9BD90A6B1CF50E176 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8620715AC016870A67B27284FF3805A8 /* Pods-holidayAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E128F8FF1A5731389F93F20C6D7BAA4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED32265D9A572C5115B76991B940C7D1 /* Pods-holidayApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E81072E59E69557618EF03C935513F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0762B970FC0AFC1203D5AB0567CEC3EA /* Pods-holidayAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D19574CE8B2A82CAB87D227EC5DD1E8 /* Pods-holidayAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB484012B47AEFE340F2F0220C4E48B /* Build configuration list for PBXNativeTarget "Pods-holidayAppTests" */;
+			buildPhases = (
+				95BEC085081D29C9BD90A6B1CF50E176 /* Headers */,
+				7B1D99CFCFB60CEFBF1C579CC82D15BE /* Sources */,
+				3C1EE0389F8675A1AE3ED90EB622F549 /* Frameworks */,
+				D9D37B99680207316AEAFC9185D97C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1810AB3C0EDA443E45F414FFABFD364E /* PBXTargetDependency */,
+			);
+			name = "Pods-holidayAppTests";
+			productName = "Pods-holidayAppTests";
+			productReference = D63E7516A3FFE0960E0E913F66A9908F /* Pods_holidayAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F6B453E3B4AE1AFDF500E3982957905 /* Pods-holidayAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0729133A53E1B9CD570D4140D1B6D3A1 /* Build configuration list for PBXNativeTarget "Pods-holidayAppUITests" */;
+			buildPhases = (
+				F8E81072E59E69557618EF03C935513F /* Headers */,
+				E6AF0DC36E97A6456510699DDD3EDF1E /* Sources */,
+				3E58F23254DC337C9DC95EE1EB07CC4C /* Frameworks */,
+				635F3D83B7A4BE84E1ED2E0E48AD6D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AF02A57E5B592A4000B249D1FBD3117 /* PBXTargetDependency */,
+			);
+			name = "Pods-holidayAppUITests";
+			productName = "Pods-holidayAppUITests";
+			productReference = 32FE5615ADF876C8EFDC08B09276D2F6 /* Pods_holidayAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F965298CB962334B46BF4742FC9A4C6 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9307DE25D337425CE6C97C3584F8AC41 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				24726469A4E5243AC2BF3682627607EE /* Headers */,
+				5E62C25462344AFF42627860DF959EC8 /* Sources */,
+				F97D9E123D2C77FC258EEBBBE511D8DE /* Frameworks */,
+				275C2CF6E85A52523195C50655EA7E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = F834105CDDFD7CD9EB2210C6B8AE2D9B /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70D303D362DEC1BD5186B5C0CFE94A0D /* Pods-holidayApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E0ADC30807D8286E18056992D1E98D /* Build configuration list for PBXNativeTarget "Pods-holidayApp" */;
+			buildPhases = (
+				E128F8FF1A5731389F93F20C6D7BAA4A /* Headers */,
+				783E3CCC3F43EDBE33FCF3B2640A431D /* Sources */,
+				255990BDD75D0EFB9C1C7F132DD3A242 /* Frameworks */,
+				379B333A14D3F5AF2E7CBDAD2E8CB84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A58F6A15BB8464B99D44669D360306 /* PBXTargetDependency */,
+				C8490FF4A1304DEA1375AFB219AB44B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-holidayApp";
+			productName = "Pods-holidayApp";
+			productReference = 53DB5F53B58055FC787BAE6FD436E7C2 /* Pods_holidayApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0C820740FDFC89DC2C2B08F779053FA /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E953D8EFFAD2326543F6FDD6D3FBCD20 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				09DBF64663C5252CE4D913A855FF066F /* Headers */,
+				1C9C6389B26759391D05B3029CCA8783 /* Sources */,
+				70E455A583D9C5A5728A5B33D27E6AEB /* Frameworks */,
+				C69FADC02FF9D682CBD78E5E8D3B090E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = E1A4098CAE4823105DDCDE6FCB43F563 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3B7B2D0D70DF2EAA85FE1B9939791C40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70D303D362DEC1BD5186B5C0CFE94A0D /* Pods-holidayApp */,
+				1D19574CE8B2A82CAB87D227EC5DD1E8 /* Pods-holidayAppTests */,
+				4F6B453E3B4AE1AFDF500E3982957905 /* Pods-holidayAppUITests */,
+				A0C820740FDFC89DC2C2B08F779053FA /* SQLite.swift */,
+				6F965298CB962334B46BF4742FC9A4C6 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275C2CF6E85A52523195C50655EA7E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379B333A14D3F5AF2E7CBDAD2E8CB84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F3D83B7A4BE84E1ED2E0E48AD6D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69FADC02FF9D682CBD78E5E8D3B090E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D37B99680207316AEAFC9185D97C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C9C6389B26759391D05B3029CCA8783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F90D97CA485F7254506004D299EB7C3 /* AggregateFunctions.swift in Sources */,
+				A07FC4C411A529D59936378579328951 /* Blob.swift in Sources */,
+				599BA1666B2F71CCED096B55F6099535 /* Coding.swift in Sources */,
+				11E05189A7EDC2D2F3E960F4CBD44F0E /* Collation.swift in Sources */,
+				F03A81399CB9B4308568D3D4D5FC01A2 /* Connection.swift in Sources */,
+				8F9AF022EF88DB22521E2D459E4A3013 /* CoreFunctions.swift in Sources */,
+				4B31746CF461C39B3780F0D810A14C0F /* CustomFunctions.swift in Sources */,
+				09D6E3E754F6437CC8BDB54CB25562FC /* DateAndTimeFunctions.swift in Sources */,
+				8CA54A4EE5991E86FE5724B72A81EA33 /* Errors.swift in Sources */,
+				681D03E08668E36C1E9EFAC2A785935F /* Expression.swift in Sources */,
+				D66DBE0B541B073770B087FB9E4D97EB /* Foundation.swift in Sources */,
+				69475E42B2BF62153B0D8B2E9B2331E0 /* FTS4.swift in Sources */,
+				16557D99BA8068AC3950581908B44C40 /* FTS5.swift in Sources */,
+				A0114BD9F5FA96109824D02CB3EBEBB8 /* Helpers.swift in Sources */,
+				4CE9CB8AFF7D92D96C2E8D83A613C787 /* Operators.swift in Sources */,
+				AECD1E63B76BEDD400801E465C02D87F /* Query.swift in Sources */,
+				98F1F6BE7CF1A2BBF45AE6E0507395C6 /* RTree.swift in Sources */,
+				66CFA47E2114259E1B349683F9A78981 /* Schema.swift in Sources */,
+				7AD26751C8BB488046D7C3AA5FAFE08C /* Setter.swift in Sources */,
+				91F3BC4B163797BD5D6B3EAC3A22ABA8 /* SQLite-Bridging.m in Sources */,
+				C0CCBD36BC33B37093A6D381B151E531 /* SQLite.swift-dummy.m in Sources */,
+				E90AB0B81F9B88D1C6D8E6BA4D1C5E4E /* Statement.swift in Sources */,
+				C6ABCAC927C2A8716E2DD3D0FD4B902A /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E62C25462344AFF42627860DF959EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEC80FE92FCD8356A938A262C9A5AEF /* SwiftyJSON-dummy.m in Sources */,
+				937138435F571DD1CE7894BEED7A8874 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783E3CCC3F43EDBE33FCF3B2640A431D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EF0B97BB4E2B5265C78343C9E2A67E /* Pods-holidayApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1D99CFCFB60CEFBF1C579CC82D15BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85890637717899C695507BB7E46C85DF /* Pods-holidayAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AF0DC36E97A6456510699DDD3EDF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7071E9433129F748ABB320AED20278B9 /* Pods-holidayAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1810AB3C0EDA443E45F414FFABFD364E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-holidayApp";
+			target = 70D303D362DEC1BD5186B5C0CFE94A0D /* Pods-holidayApp */;
+			targetProxy = 5D7C7706E633A0DF895DC14C8E1F6C3F /* PBXContainerItemProxy */;
+		};
+		3AF02A57E5B592A4000B249D1FBD3117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-holidayApp";
+			target = 70D303D362DEC1BD5186B5C0CFE94A0D /* Pods-holidayApp */;
+			targetProxy = 368ED4B2CDB61BC9468E890DF1AD41B5 /* PBXContainerItemProxy */;
+		};
+		42A58F6A15BB8464B99D44669D360306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = A0C820740FDFC89DC2C2B08F779053FA /* SQLite.swift */;
+			targetProxy = DE22B2263368AD99288506624CFD751C /* PBXContainerItemProxy */;
+		};
+		C8490FF4A1304DEA1375AFB219AB44B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 6F965298CB962334B46BF4742FC9A4C6 /* SwiftyJSON */;
+			targetProxy = 34973E33B3D880822B1E488991E19C81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		17708AB81ACCAD68048CBE221E286AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40B196ABF3B427FE352A9D66ECCAD62 /* Pods-holidayAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-holidayAppTests/Pods-holidayAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-holidayAppTests/Pods-holidayAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25504769C90EBF5ABB0B85156F39728C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6264F2FCB61725E1E0F16D063C69A0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		413003884A1E560B709F17F60DAFC33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6264F2FCB61725E1E0F16D063C69A0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F2593FD0BC871AE21B29FA463613DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B99BF3AACD94D21FDDF0CB57CA6210A /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		703045C9FA692C5FD9352515820724C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B99BF3AACD94D21FDDF0CB57CA6210A /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FCB8BCE2A35E65AF08EBED2EE72BEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39729BCB1A30C7F7B52747B3B1BDE0C1 /* Pods-holidayAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-holidayAppUITests/Pods-holidayAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-holidayAppUITests/Pods-holidayAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EC47CC3D942995D181D06D1FE50E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4581652356F79279851CC637F05EB5 /* Pods-holidayAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-holidayAppTests/Pods-holidayAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-holidayAppTests/Pods-holidayAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D695DC0CE3E825C9EBC1A960837DB4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80800D0A106E88D114A569BFC350FDF /* Pods-holidayApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-holidayApp/Pods-holidayApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-holidayApp/Pods-holidayApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE436CF62C8646FCC06855B5DDF00D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC731D049FE97E5B8D5E21ED687AD5B /* Pods-holidayApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-holidayApp/Pods-holidayApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-holidayApp/Pods-holidayApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F47A5DC9EBFF6AB0A8DC4A3A8736A4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD508902DFF1A8B82BBFA3E52EE0506 /* Pods-holidayAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-holidayAppUITests/Pods-holidayAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-holidayAppUITests/Pods-holidayAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0729133A53E1B9CD570D4140D1B6D3A1 /* Build configuration list for PBXNativeTarget "Pods-holidayAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47A5DC9EBFF6AB0A8DC4A3A8736A4DD /* Debug */,
+				7FCB8BCE2A35E65AF08EBED2EE72BEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E0ADC30807D8286E18056992D1E98D /* Build configuration list for PBXNativeTarget "Pods-holidayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE436CF62C8646FCC06855B5DDF00D5B /* Debug */,
+				D695DC0CE3E825C9EBC1A960837DB4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9307DE25D337425CE6C97C3584F8AC41 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25504769C90EBF5ABB0B85156F39728C /* Debug */,
+				413003884A1E560B709F17F60DAFC33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E953D8EFFAD2326543F6FDD6D3FBCD20 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703045C9FA692C5FD9352515820724C8 /* Debug */,
+				5F2593FD0BC871AE21B29FA463613DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB484012B47AEFE340F2F0220C4E48B /* Build configuration list for PBXNativeTarget "Pods-holidayAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC47CC3D942995D181D06D1FE50E07B /* Debug */,
+				17708AB81ACCAD68048CBE221E286AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

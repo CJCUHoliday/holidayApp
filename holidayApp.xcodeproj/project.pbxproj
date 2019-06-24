@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264C7F1DB50FED9288BB76C7 /* Pods_holidayApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE740C8985DEDBF75D6A5BE2 /* Pods_holidayApp.framework */; };
+		5AAAFAEB16367175BA9269B9 /* Pods_holidayAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE01C140C83BF6417B3EC4DC /* Pods_holidayAppUITests.framework */; };
+		9FAA8BA13E9A326949D01183 /* Pods_holidayAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13E25C5E3D40DB6BDEC7D4F /* Pods_holidayAppTests.framework */; };
 		F4DFDF2022C0820200E4F653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDF1F22C0820200E4F653 /* AppDelegate.swift */; };
 		F4DFDF2222C0820200E4F653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDF2122C0820200E4F653 /* ViewController.swift */; };
 		F4DFDF2522C0820200E4F653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DFDF2322C0820200E4F653 /* Main.storyboard */; };
@@ -14,6 +17,11 @@
 		F4DFDF2A22C0820200E4F653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DFDF2822C0820200E4F653 /* LaunchScreen.storyboard */; };
 		F4DFDF3522C0820300E4F653 /* holidayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDF3422C0820300E4F653 /* holidayAppTests.swift */; };
 		F4DFDF4022C0820300E4F653 /* holidayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDF3F22C0820300E4F653 /* holidayAppUITests.swift */; };
+		F4DFDF5422C0A32800E4F653 /* AsyncRequestWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDF5322C0A32800E4F653 /* AsyncRequestWorker.swift */; };
+		F4DFDF5622C0A64500E4F653 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDF5522C0A64500E4F653 /* SplashViewController.swift */; };
+		F4DFDF5922C0B24600E4F653 /* MyBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDF5822C0B24600E4F653 /* MyBrowserViewController.swift */; };
+		F4DFDF5B22C0B30600E4F653 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDF5A22C0B30600E4F653 /* LoginViewController.swift */; };
+		F4DFDF5D22C0BAC600E4F653 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDF5C22C0BAC600E4F653 /* MasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		239FD50C2169747066524DE6 /* Pods-holidayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayApp.debug.xcconfig"; path = "Target Support Files/Pods-holidayApp/Pods-holidayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3A68DFF32074D6D5D0B9A28F /* Pods-holidayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayApp.release.xcconfig"; path = "Target Support Files/Pods-holidayApp/Pods-holidayApp.release.xcconfig"; sourceTree = "<group>"; };
+		A200885D96F47C945600FA1E /* Pods-holidayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-holidayAppUITests/Pods-holidayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C13E25C5E3D40DB6BDEC7D4F /* Pods_holidayAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_holidayAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE01C140C83BF6417B3EC4DC /* Pods_holidayAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_holidayAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE740C8985DEDBF75D6A5BE2 /* Pods_holidayApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_holidayApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CFD73437B9A5BE06C24E96 /* Pods-holidayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayAppUITests.release.xcconfig"; path = "Target Support Files/Pods-holidayAppUITests/Pods-holidayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4359383848794300FA098D4 /* Pods-holidayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayAppTests.debug.xcconfig"; path = "Target Support Files/Pods-holidayAppTests/Pods-holidayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4DFDF1C22C0820200E4F653 /* holidayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holidayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DFDF1F22C0820200E4F653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DFDF2122C0820200E4F653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,12 @@
 		F4DFDF3B22C0820300E4F653 /* holidayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holidayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DFDF3F22C0820300E4F653 /* holidayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holidayAppUITests.swift; sourceTree = "<group>"; };
 		F4DFDF4122C0820300E4F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DFDF5322C0A32800E4F653 /* AsyncRequestWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncRequestWorker.swift; sourceTree = "<group>"; };
+		F4DFDF5522C0A64500E4F653 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		F4DFDF5822C0B24600E4F653 /* MyBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBrowserViewController.swift; sourceTree = "<group>"; };
+		F4DFDF5A22C0B30600E4F653 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F4DFDF5C22C0BAC600E4F653 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		F784379C8FDE0FA0299A86DB /* Pods-holidayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayAppTests.release.xcconfig"; path = "Target Support Files/Pods-holidayAppTests/Pods-holidayAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264C7F1DB50FED9288BB76C7 /* Pods_holidayApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAA8BA13E9A326949D01183 /* Pods_holidayAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AAAFAEB16367175BA9269B9 /* Pods_holidayAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45647AD3486406BAC0D2CE44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE740C8985DEDBF75D6A5BE2 /* Pods_holidayApp.framework */,
+				C13E25C5E3D40DB6BDEC7D4F /* Pods_holidayAppTests.framework */,
+				CE01C140C83BF6417B3EC4DC /* Pods_holidayAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A77D6F164703482F90FB8CB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				239FD50C2169747066524DE6 /* Pods-holidayApp.debug.xcconfig */,
+				3A68DFF32074D6D5D0B9A28F /* Pods-holidayApp.release.xcconfig */,
+				F4359383848794300FA098D4 /* Pods-holidayAppTests.debug.xcconfig */,
+				F784379C8FDE0FA0299A86DB /* Pods-holidayAppTests.release.xcconfig */,
+				A200885D96F47C945600FA1E /* Pods-holidayAppUITests.debug.xcconfig */,
+				E6CFD73437B9A5BE06C24E96 /* Pods-holidayAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F4DFDF1322C0820200E4F653 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				F4DFDF3322C0820300E4F653 /* holidayAppTests */,
 				F4DFDF3E22C0820300E4F653 /* holidayAppUITests */,
 				F4DFDF1D22C0820200E4F653 /* Products */,
+				A77D6F164703482F90FB8CB8 /* Pods */,
+				45647AD3486406BAC0D2CE44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +147,16 @@
 		F4DFDF1E22C0820200E4F653 /* holidayApp */ = {
 			isa = PBXGroup;
 			children = (
+				F4DFDF5722C0B21300E4F653 /* login */,
+				F4DFDF5222C0A31600E4F653 /* worker */,
 				F4DFDF1F22C0820200E4F653 /* AppDelegate.swift */,
 				F4DFDF2122C0820200E4F653 /* ViewController.swift */,
+				F4DFDF5522C0A64500E4F653 /* SplashViewController.swift */,
 				F4DFDF2322C0820200E4F653 /* Main.storyboard */,
 				F4DFDF2622C0820200E4F653 /* Assets.xcassets */,
 				F4DFDF2822C0820200E4F653 /* LaunchScreen.storyboard */,
 				F4DFDF2B22C0820200E4F653 /* Info.plist */,
+				F4DFDF5C22C0BAC600E4F653 /* MasterViewController.swift */,
 			);
 			path = holidayApp;
 			sourceTree = "<group>";
@@ -125,6 +179,23 @@
 			path = holidayAppUITests;
 			sourceTree = "<group>";
 		};
+		F4DFDF5222C0A31600E4F653 /* worker */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFDF5322C0A32800E4F653 /* AsyncRequestWorker.swift */,
+			);
+			path = worker;
+			sourceTree = "<group>";
+		};
+		F4DFDF5722C0B21300E4F653 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFDF5822C0B24600E4F653 /* MyBrowserViewController.swift */,
+				F4DFDF5A22C0B30600E4F653 /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DFDF4422C0820300E4F653 /* Build configuration list for PBXNativeTarget "holidayApp" */;
 			buildPhases = (
+				C44E6EC6D2EFA3EE13157AFF /* [CP] Check Pods Manifest.lock */,
 				F4DFDF1822C0820200E4F653 /* Sources */,
 				F4DFDF1922C0820200E4F653 /* Frameworks */,
 				F4DFDF1A22C0820200E4F653 /* Resources */,
+				34E0331314EA1C60B1281455 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DFDF4722C0820300E4F653 /* Build configuration list for PBXNativeTarget "holidayAppTests" */;
 			buildPhases = (
+				B69267B4B314F64D2CC4AD3E /* [CP] Check Pods Manifest.lock */,
 				F4DFDF2C22C0820300E4F653 /* Sources */,
 				F4DFDF2D22C0820300E4F653 /* Frameworks */,
 				F4DFDF2E22C0820300E4F653 /* Resources */,
@@ -167,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DFDF4A22C0820300E4F653 /* Build configuration list for PBXNativeTarget "holidayAppUITests" */;
 			buildPhases = (
+				7D8BF3BEF9EDCF3B811397DC /* [CP] Check Pods Manifest.lock */,
 				F4DFDF3722C0820300E4F653 /* Sources */,
 				F4DFDF3822C0820300E4F653 /* Frameworks */,
 				F4DFDF3922C0820300E4F653 /* Resources */,
@@ -251,13 +326,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34E0331314EA1C60B1281455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-holidayApp/Pods-holidayApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-holidayApp/Pods-holidayApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D8BF3BEF9EDCF3B811397DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-holidayAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B69267B4B314F64D2CC4AD3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-holidayAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44E6EC6D2EFA3EE13157AFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-holidayApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4DFDF1822C0820200E4F653 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DFDF5B22C0B30600E4F653 /* LoginViewController.swift in Sources */,
+				F4DFDF5422C0A32800E4F653 /* AsyncRequestWorker.swift in Sources */,
 				F4DFDF2222C0820200E4F653 /* ViewController.swift in Sources */,
+				F4DFDF5922C0B24600E4F653 /* MyBrowserViewController.swift in Sources */,
 				F4DFDF2022C0820200E4F653 /* AppDelegate.swift in Sources */,
+				F4DFDF5D22C0BAC600E4F653 /* MasterViewController.swift in Sources */,
+				F4DFDF5622C0A64500E4F653 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +603,7 @@
 		};
 		F4DFDF4522C0820300E4F653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239FD50C2169747066524DE6 /* Pods-holidayApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +622,7 @@
 		};
 		F4DFDF4622C0820300E4F653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A68DFF32074D6D5D0B9A28F /* Pods-holidayApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +641,7 @@
 		};
 		F4DFDF4822C0820300E4F653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4359383848794300FA098D4 /* Pods-holidayAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +663,7 @@
 		};
 		F4DFDF4922C0820300E4F653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F784379C8FDE0FA0299A86DB /* Pods-holidayAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +685,7 @@
 		};
 		F4DFDF4B22C0820300E4F653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A200885D96F47C945600FA1E /* Pods-holidayAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +706,7 @@
 		};
 		F4DFDF4C22C0820300E4F653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6CFD73437B9A5BE06C24E96 /* Pods-holidayAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
